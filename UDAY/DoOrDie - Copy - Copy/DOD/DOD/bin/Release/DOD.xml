@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DOD
+</name>
+</assembly>
+<members>
+<member name="P:DOD.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DOD.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DOD.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:DOD.SharePermissionEntry.DomainName">
+	<summary>
+ The domain name that the user/group in the UserOrGroupName property belongs to
+ </summary>
+</member><member name="P:DOD.SharePermissionEntry.UserOrGroupName">
+	<summary>
+ The name of the user or group that should be granted/denied permission
+ </summary>
+</member><member name="P:DOD.SharePermissionEntry.Permission">
+	<summary>
+ The share permission to grant or deny for the account in UserOrGroupName
+ </summary>
+</member><member name="P:DOD.SharePermissionEntry.AllowOrDeny">
+	<summary>
+ Set to True to allow the rights specified in the Permission property and False to deny the rights specified in the Permission property. 
+ Default is True.
+ </summary>
+</member><member name="M:DOD.SharePermissionEntry.#ctor">
+	<summary>
+ Creates a new instance of the SharePermissionEntry class
+ </summary>
+</member><member name="M:DOD.SharePermissionEntry.#ctor(System.String,System.String,DOD.SharedFolder.SharePermissions,System.Boolean)">
+	<summary>
+ Creates a new instance of the SharePermissionEntry class and populates each of the properties within the instance
+ </summary>
+	<param name="Domain">The domain that the user in the AccountName argument belongs to. 
+ Pass String.Empty or Nothing here if you are specifying a 'well known' identity such as the Everyone group in the AccountName argument</param>
+	<param name="AccountName">The username or group name that this permission entry relates to</param>
+	<param name="DesiredPermission">The share permission to grant/deny</param>
+	<param name="AlloworDenyPermission">True to allow the permission, False to deny the permission</param>
+</member><member name="M:DOD.SharedFolder.ShareExistingFolder(System.String,System.String,System.String,System.Collections.Generic.List{DOD.SharePermissionEntry},System.String)">
+	<summary>
+ Shares an existing folder on the local computer or on a remote computer
+ </summary>
+	<param name="ShareName">The name for the share</param>
+	<param name="ShareComment">An optional comment/description for the share</param>
+	<param name="LocalPath">The local path to the folder to be shared. If creating share on a remote computer then 
+ the path must be local to the remote computer. Do not use UNC paths</param>
+	<param name="SharePermissions">The share permissions to assign to this share</param>
+	<param name="ComputerName">OPTIONAL - the remote computer name to create the share on</param>
+</member>
+</members>
+</doc>

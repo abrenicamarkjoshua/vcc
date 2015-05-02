@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="defuser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">voice</Value>
+    </Setting>
+    <Setting Name="defpass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">command</Value>
+    </Setting>
+    <Setting Name="studuser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">student</Value>
+    </Setting>
+    <Setting Name="studpass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">student</Value>
+    </Setting>
+    <Setting Name="ServerIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.4</Value>
+    </Setting>
+    <Setting Name="isServer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="lastip" Type="System.String" Scope="User">
+      <Value Profile="(Default)">169.254.87.145</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

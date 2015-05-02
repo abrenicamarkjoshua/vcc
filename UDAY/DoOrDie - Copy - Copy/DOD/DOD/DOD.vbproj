@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C362027-11D7-4143-BD9E-506745DB4F45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DOD.My.MyApplication</StartupObject>
+    <RootNamespace>DOD</RootNamespace>
+    <AssemblyName>DOD</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DOD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DOD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Class1.vb" />
+    <Compile Include="Connection.vb" />
+    <Compile Include="frmInstruction.Designer.vb">
+      <DependentUpon>frmInstruction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInstruction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReceive.Designer.vb">
+      <DependentUpon>frmReceive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReceive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegister.Designer.vb">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddTime.Designer.vb">
+      <DependentUpon>frmAddTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackupdb.Designer.vb">
+      <DependentUpon>frmBackupdb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBackupdb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServer.Designer.vb">
+      <DependentUpon>frmServer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSpeechRecognition.Designer.vb">
+      <DependentUpon>frmSpeechRecognition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSpeechRecognition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStart.Designer.vb">
+      <DependentUpon>frmStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSystem.Designer.vb">
+      <DependentUpon>frmSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSystem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccount.Designer.vb">
+      <DependentUpon>frmAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmActivity.Designer.vb">
+      <DependentUpon>frmActivity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmActivity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlternative.Designer.vb">
+      <DependentUpon>frmAlternative.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlternative.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApplication.Designer.vb">
+      <DependentUpon>frmApplication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmApplication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAttendance.Designer.vb">
+      <DependentUpon>frmAttendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAttendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangeSection.Designer.vb">
+      <DependentUpon>frmChangeSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangeSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfigure.Designer.vb">
+      <DependentUpon>frmConfigure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfigure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmControl.Designer.vb">
+      <DependentUpon>frmControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreateUser.Designer.vb">
+      <DependentUpon>frmCreateUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreateUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesktopViewer.Designer.vb">
+      <DependentUpon>frmDesktopViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesktopViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExport.Designer.vb">
+      <DependentUpon>frmExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileManager.Designer.vb">
+      <DependentUpon>frmFileManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFileManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelpList.Designer.vb">
+      <DependentUpon>frmHelpList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelpList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKeylogger.Designer.vb">
+      <DependentUpon>frmKeylogger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmKeylogger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKeyword.Designer.vb">
+      <DependentUpon>frmKeyword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmKeyword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLock.Designer.vb">
+      <DependentUpon>frmLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManage.Designer.vb">
+      <DependentUpon>frmManage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMonitoring.Designer.vb">
+      <DependentUpon>frmMonitoring.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMonitoring.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMyClass.Designer.vb">
+      <DependentUpon>frmMyClass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMyClass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNetwork.Designer.vb">
+      <DependentUpon>frmNetwork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNetwork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetServer.Designer.vb">
+      <DependentUpon>frmSetServer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetServer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSharedDesktop.Designer.vb">
+      <DependentUpon>frmSharedDesktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSharedDesktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudentRegistration.Designer.vb">
+      <DependentUpon>frmStudentRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudentRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaskManager.Designer.vb">
+      <DependentUpon>frmTaskManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaskManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmText2Speech.Designer.vb">
+      <DependentUpon>frmText2Speech.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmText2Speech.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimer.Designer.vb">
+      <DependentUpon>frmTimer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTimer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTutorial.Designer.vb">
+      <DependentUpon>frmTutorial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTutorial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVoice.Designer.vb">
+      <DependentUpon>frmVoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarning.Designer.vb">
+      <DependentUpon>frmWarning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWord.Designer.vb">
+      <DependentUpon>frmWord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWordType.Designer.vb">
+      <DependentUpon>frmWordType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWordType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ScreenCapture.vb" />
+    <Compile Include="screenmonitor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SharedFolder.vb" />
+    <Compile Include="SharePermissionEntry.vb" />
+    <Compile Include="SocketServer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAccount.resx">
+      <DependentUpon>frmAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmActivity.resx">
+      <DependentUpon>frmActivity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddTime.resx">
+      <DependentUpon>frmAddTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlternative.resx">
+      <DependentUpon>frmAlternative.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApplication.resx">
+      <DependentUpon>frmApplication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAttendance.resx">
+      <DependentUpon>frmAttendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackupdb.resx">
+      <DependentUpon>frmBackupdb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangeSection.resx">
+      <DependentUpon>frmChangeSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfigure.resx">
+      <DependentUpon>frmConfigure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmControl.resx">
+      <DependentUpon>frmControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreateUser.resx">
+      <DependentUpon>frmCreateUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesktopViewer.resx">
+      <DependentUpon>frmDesktopViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExport.resx">
+      <DependentUpon>frmExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileManager.resx">
+      <DependentUpon>frmFileManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKeylogger.resx">
+      <DependentUpon>frmKeylogger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKeyword.resx">
+      <DependentUpon>frmKeyword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLock.resx">
+      <DependentUpon>frmLock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManage.resx">
+      <DependentUpon>frmManage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMonitoring.resx">
+      <DependentUpon>frmMonitoring.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMyClass.resx">
+      <DependentUpon>frmMyClass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNetwork.resx">
+      <DependentUpon>frmNetwork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReceive.resx">
+      <DependentUpon>frmReceive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.resx">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServer.resx">
+      <DependentUpon>frmServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetServer.resx">
+      <DependentUpon>frmSetServer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSharedDesktop.resx">
+      <DependentUpon>frmSharedDesktop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSpeechRecognition.resx">
+      <DependentUpon>frmSpeechRecognition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStart.resx">
+      <DependentUpon>frmStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudentRegistration.resx">
+      <DependentUpon>frmStudentRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSystem.resx">
+      <DependentUpon>frmSystem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaskManager.resx">
+      <DependentUpon>frmTaskManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmText2Speech.resx">
+      <DependentUpon>frmText2Speech.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimer.resx">
+      <DependentUpon>frmTimer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTutorial.resx">
+      <DependentUpon>frmTutorial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVoice.resx">
+      <DependentUpon>frmVoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarning.resx">
+      <DependentUpon>frmWarning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWord.resx">
+      <DependentUpon>frmWord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWordType.resx">
+      <DependentUpon>frmWordType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screenmonitor.resx">
+      <DependentUpon>screenmonitor.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PanelHL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RAT\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advanceSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registerStudent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remoteAdministrationTool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start listening.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start listening2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainSpeech.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wordSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\section.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NetworkHL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LockBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VoiceCommand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alternative.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alternative1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disconnected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CreateServer.exe" />
+    <Content Include="RestartDOD.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

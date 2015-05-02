@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6DBD8184-252D-4406-8782-85FA18862A89}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VCC.My.MyApplication</StartupObject>
+    <RootNamespace>VCC</RootNamespace>
+    <AssemblyName>VCC</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VCC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VCC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddStudentToSection.Designer.vb">
+      <DependentUpon>AddStudentToSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudentToSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_section.Designer.vb">
+      <DependentUpon>add_section.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_section.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_section_with_access_code.Designer.vb">
+      <DependentUpon>add_section_with_access_code.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_section_with_access_code.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_studentSection.Designer.vb">
+      <DependentUpon>add_studentSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add_studentSection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendance.Designer.vb">
+      <DependentUpon>attendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="attendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BACKEND.Designer.vb">
+      <DependentUpon>BACKEND.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BACKEND.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controllers_and_functions.vb" />
+    <Compile Include="DASHBOARD.Designer.vb">
+      <DependentUpon>DASHBOARD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DASHBOARD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="database.vb" />
+    <Compile Include="DEFAULT_STUDENT.Designer.vb">
+      <DependentUpon>DEFAULT_STUDENT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DEFAULT_STUDENT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="draggable.Designer.vb">
+      <DependentUpon>draggable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="draggable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emergency_setserver.Designer.vb">
+      <DependentUpon>emergency_setserver.vb</DependentUpon>
+    </Compile>
+    <Compile Include="emergency_setserver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fileSettings.designer.vb">
+      <DependentUpon>fileSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fileSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ilogin.vb" />
+    <Compile Include="IUser.vb" />
+    <Compile Include="keywordsSettings.designer.vb">
+      <DependentUpon>keywordsSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="keywordsSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lecture.designer.vb">
+      <DependentUpon>lecture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="lecture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listener.designer.vb">
+      <DependentUpon>listener.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listener.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modal1.Designer.vb">
+      <DependentUpon>modal1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modal1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="monitor.Designer.vb">
+      <DependentUpon>monitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="monitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MY_ACCOUNT.Designer.vb">
+      <DependentUpon>MY_ACCOUNT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MY_ACCOUNT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="network_setup.designer.vb">
+      <DependentUpon>network_setup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="network_setup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="output.vb" />
+    <Compile Include="professor.vb" />
+    <Compile Include="prompt.vb" />
+    <Compile Include="screenmonitor.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="strategy_network.vb" />
+    <Compile Include="studentslist.Designer.vb">
+      <DependentUpon>studentslist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="studentslist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenCapture.vb" />
+    <Compile Include="sender_class.Designer.vb">
+      <DependentUpon>sender_class.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sender_class.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetTimer.Designer.vb">
+      <DependentUpon>SetTimer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SetTimer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SharedFolder.vb" />
+    <Compile Include="SharePermissionEntry.vb" />
+    <Compile Include="speaker.Designer.vb">
+      <DependentUpon>speaker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="speaker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpeechRecognition.designer.vb">
+      <DependentUpon>SpeechRecognition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SpeechRecognition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="speechrecognition2.Designer.vb">
+      <DependentUpon>speechrecognition2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="speechrecognition2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="strategy_input.vb" />
+    <Compile Include="strategy_localComputer.vb" />
+    <Compile Include="strategy_window.vb" />
+    <Compile Include="student.vb" />
+    <Compile Include="student_add_section.Designer.vb">
+      <DependentUpon>student_add_section.vb</DependentUpon>
+    </Compile>
+    <Compile Include="student_add_section.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="template1.Designer.vb">
+      <DependentUpon>template1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="template1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="template_and_animation1.Designer.vb">
+      <DependentUpon>template_and_animation1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="template_and_animation1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STUDENT_MODULE.Designer.vb">
+      <DependentUpon>STUDENT_MODULE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT_MODULE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tutorial_mode.Designer.vb">
+      <DependentUpon>tutorial_mode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tutorial_mode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_section.Designer.vb">
+      <DependentUpon>update_section.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update_section.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user.vb" />
+    <Compile Include="wordSettings.designer.vb">
+      <DependentUpon>wordSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wordSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wordsettings2.Designer.vb">
+      <DependentUpon>wordsettings2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wordsettings2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddStudentToSection.resx">
+      <DependentUpon>AddStudentToSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_section.resx">
+      <DependentUpon>add_section.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_section_with_access_code.resx">
+      <DependentUpon>add_section_with_access_code.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_studentSection.resx">
+      <DependentUpon>add_studentSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendance.resx">
+      <DependentUpon>attendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BACKEND.resx">
+      <DependentUpon>BACKEND.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DASHBOARD.resx">
+      <DependentUpon>DASHBOARD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DEFAULT_STUDENT.resx">
+      <DependentUpon>DEFAULT_STUDENT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="draggable.resx">
+      <DependentUpon>draggable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emergency_setserver.resx">
+      <DependentUpon>emergency_setserver.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fileSettings.resx">
+      <DependentUpon>fileSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keywordsSettings.resx">
+      <DependentUpon>keywordsSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lecture.resx">
+      <DependentUpon>lecture.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listener.resx">
+      <DependentUpon>listener.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modal1.resx">
+      <DependentUpon>modal1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="monitor.resx">
+      <DependentUpon>monitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MY_ACCOUNT.resx">
+      <DependentUpon>MY_ACCOUNT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="network_setup.resx">
+      <DependentUpon>network_setup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screenmonitor.resx">
+      <DependentUpon>screenmonitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentslist.resx">
+      <DependentUpon>studentslist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sender_class.resx">
+      <DependentUpon>sender_class.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetTimer.resx">
+      <DependentUpon>SetTimer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="speaker.resx">
+      <DependentUpon>speaker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpeechRecognition.resx">
+      <DependentUpon>SpeechRecognition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="speechrecognition2.resx">
+      <DependentUpon>speechrecognition2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="student_add_section.resx">
+      <DependentUpon>student_add_section.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="template1.resx">
+      <DependentUpon>template1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="template_and_animation1.resx">
+      <DependentUpon>template_and_animation1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STUDENT_MODULE.resx">
+      <DependentUpon>STUDENT_MODULE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tutorial_mode.resx">
+      <DependentUpon>tutorial_mode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_section.resx">
+      <DependentUpon>update_section.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wordSettings.resx">
+      <DependentUpon>wordSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wordsettings2.resx">
+      <DependentUpon>wordsettings2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speech2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainSpeech.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registerStudent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\section.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wordSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wordSettings1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advanceSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remoteAdministrationTool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start listening.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start listening2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disconnected.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

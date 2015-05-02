@@ -1,0 +1,177 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VCC
+</name>
+</assembly>
+<members>
+<member name="M:VCC.SharedFolder.ShareExistingFolder(System.String,System.String,System.String,System.Collections.Generic.List{VCC.SharePermissionEntry},System.String)">
+	<summary>
+ Shares an existing folder on the local computer or on a remote computer
+ </summary>
+	<param name="ShareName">The name for the share</param>
+	<param name="ShareComment">An optional comment/description for the share</param>
+	<param name="LocalPath">The local path to the folder to be shared. If creating share on a remote computer then 
+ the path must be local to the remote computer. Do not use UNC paths</param>
+	<param name="SharePermissions">The share permissions to assign to this share</param>
+	<param name="ComputerName">OPTIONAL - the remote computer name to create the share on</param>
+</member><member name="M:VCC.strategy_network.checkNetwork">
+	<summary>
+ this function is invoked only for professors
+ </summary>
+	<remarks></remarks>
+</member><member name="P:VCC.SharePermissionEntry.DomainName">
+	<summary>
+ The domain name that the user/group in the UserOrGroupName property belongs to
+ </summary>
+</member><member name="P:VCC.SharePermissionEntry.UserOrGroupName">
+	<summary>
+ The name of the user or group that should be granted/denied permission
+ </summary>
+</member><member name="P:VCC.SharePermissionEntry.Permission">
+	<summary>
+ The share permission to grant or deny for the account in UserOrGroupName
+ </summary>
+</member><member name="P:VCC.SharePermissionEntry.AllowOrDeny">
+	<summary>
+ Set to True to allow the rights specified in the Permission property and False to deny the rights specified in the Permission property. 
+ Default is True.
+ </summary>
+</member><member name="M:VCC.SharePermissionEntry.#ctor">
+	<summary>
+ Creates a new instance of the SharePermissionEntry class
+ </summary>
+</member><member name="M:VCC.SharePermissionEntry.#ctor(System.String,System.String,VCC.SharedFolder.SharePermissions,System.Boolean)">
+	<summary>
+ Creates a new instance of the SharePermissionEntry class and populates each of the properties within the instance
+ </summary>
+	<param name="Domain">The domain that the user in the AccountName argument belongs to. 
+ Pass String.Empty or Nothing here if you are specifying a 'well known' identity such as the Everyone group in the AccountName argument</param>
+	<param name="AccountName">The username or group name that this permission entry relates to</param>
+	<param name="DesiredPermission">The share permission to grant/deny</param>
+	<param name="AlloworDenyPermission">True to allow the permission, False to deny the permission</param>
+</member><member name="P:VCC.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.advanceSettings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.attendance">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.background">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.background_blue">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.dashboard2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.disconnected">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.fileSettings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.login2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.login3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.LOGO3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.main1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.network">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.network2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.registerStudent">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.remoteAdministrationTool">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.section">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.speech2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.start_listening">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.start_listening2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.studentList">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.timer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.title">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.trainSpeech">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.tutorial">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.wordSettings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VCC.My.Resources.Resources.wordSettings1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:VCC.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

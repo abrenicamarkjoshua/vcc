@@ -1,0 +1,130 @@
+Welcome and We are proud to present a video tutorial 
+on this system "Voice command controller for IT Laboratory"
+
+so to get started you need an account. if you already have an account just enter it and log in.
+If not, follow this steps.
+first you need to login using the default username "voice" and the default password "command"
+this will bring us to the registration form for registering new professors.
+
+So let us now register an account.
+my username is "joshua"
+password is "joshua"
+retype password "joshua"
+lastname "Abrenica"
+first name "Mark Joshua"
+Middle name "Rivera"
+gender "Male"
+
+so now i'm finished in entering my account details and now click next.
+
+Now enter your schedule of your subjects.
+click "save"
+then click "continue"
+
+so the system tells us that we are first time users and it is recommended to train the speech recognition engine
+<stop>
+
+<record>
+Network settings.
+network settings allows you to rename each client's "word call" so that you can call their names and able to control them using voice commands
+phrases like "pc1 shutdown unit" or "pc3 lock unit" to give commands to a specific computer
+
+File settings this is for opening of files. example let's register a lecture file.
+so that if i say "server open lecture1" the system will open this file located in this folder
+
+keyword settings.
+this is for shortcut keys using voice command. examples are "select-all" that's control-A
+or undo. you can add more shortcuts here.
+
+ok now the system will teach us the basics of voice commands. let's follow the instruction
+
+so now the tutorial is finished we are here in the dashboard or main menu. next time we log in, we will redirected here.
+so you can access all the previous configuration settings in here. like network setting, application setting, keyword setting and word setting.
+
+so let's first discuss about "my class"
+
+so in here you have the ability to register student. let's try to register a student.
+and now the students registered will be listed here.
+
+so before we proceed let's first register some students in the client side
+
+<stop>
+
+<record>
+So first you need to register your account as a student first. The default password is username: "student" and password: "student"
+here you'll need to provide your account information.
+ok now let's log in.
+so now we're loggedin as a student, a timer indicator here for indicating our laboratory time and in here the instructions for saving the activity
+
+so if the professor set's a time limit example "60 minutes" or 10 minutes, this will change to the time limit set by the professor
+
+<stop>
+
+<record>
+The timer settings allows you to set time for each computer laboratory activity or activity by batch.
+so let's set the time to let's say 7 minutes.
+now let's take a look at the client side for any changes
+<stop>
+
+<junar's pc>
+<login>
+<record>
+<<system changes timer>>
+<after 5 seconds>
+<stop>
+supposed dub for that "now you see that the time changed and was set to 7 minutes because the professor set it. Now let's take a look of the student monitoring module
+
+<record>
+so now we we'll start the timer.
+so click "start voice command"
+and now say "server start time"
+
+<stop>
+
+<record>
+now let's see the student activities while they are doing their activities
+first click "start voice command"
+so now i'll just say "start student monitoring"
+so we have only one student connected. the rest of these computers are registered but not connected that is why they are black screens
+we can control these clients using this graphical user interface 
+or using voice commands.
+for locking i'll just say
+"all lock unit"
+for specific computer for example pc1, i'll just say "pc1 lock unit"
+the same pattern applies for shutting down, unlocking, and force logout.
+i can also go to the student monitoring module by clicking this icon.
+so next we'll talk about the student saving their activities. but first the professor needs to open their application. so let's open
+visual studio within the client using voice.
+click "start voice command"
+say "all open visual-studio"
+so you see here in the student monitoring the visual studio opened.
+Now let's take a look at the client side and start creating an activity
+
+<stop>
+
+<start>
+so let's create a basic program.
+so now i'm finished i can just log out and the system will send my activity to the server and also my attendance
+now let's take a look at the attendance module and student's activities
+<stop>
+
+<start>
+to view the attendance and the student's activities just click my class, and click student activity
+
+so the folder in which the activity resides will open
+<stop>
+
+<start>
+...
+the account settings allows you to update your account like changing of passwords and correcting personal information.
+...
+<stop>
+
+<start>
+...
+voice alternative module. this module is for learning voice commands and an alternative to using the wireless microphone headset.
+use this if the voice recognition fails or if you want to know more voice commands.
+...
+<stop>
+
+  

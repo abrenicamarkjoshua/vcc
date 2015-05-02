@@ -1,0 +1,58 @@
+D:\VB.Net\Client\Client\obj\Debug\ResolveAssemblyReference.cache
+D:\VB.Net\Client\Client\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\VB.Net\Client\Client\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\VB.Net\Client\Client\bin\Debug\Stub.exe
+D:\VB.Net\Client\Client\bin\Debug\Stub.pdb
+D:\VB.Net\Client\Client\obj\Debug\Stub.Form1.resources
+D:\VB.Net\Client\Client\obj\Debug\Stub.Resources.resources
+D:\VB.Net\Client\Client\obj\Debug\Stub.exe
+D:\VB.Net\Client\Client\obj\Debug\Stub.pdb
+D:\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.exe
+D:\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.pdb
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.pdb
+D:\VB.Net\VB.Net\VB.Net\Client\Client\bin\Debug\Stub.exe
+D:\VB.Net\VB.Net\VB.Net\Client\Client\bin\Debug\Stub.pdb
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\ResolveAssemblyReference.cache
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.Form1.resources
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.Resources.resources
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\ResGen.read.1.tlog
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\ResGen.write.1.tlog
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.exe
+D:\VB.Net\VB.Net\VB.Net\Stub\Client\obj\Debug\Stub.exe
+D:\VB.Net\VB.Net\VB.Net\Stub\Client\obj\Debug\Stub.pdb
+C:\Users\carlo\Downloads\Simple Rat\Stub\Client\bin\Debug\Stub.exe.config
+C:\Users\carlo\Downloads\Simple Rat\Stub\Client\obj\Debug\Stub.exe
+C:\Users\carlo\Downloads\Simple Rat\Stub\Client\obj\Debug\Stub.pdb
+C:\Users\carlo\Downloads\Simple Rat\Stub\Client\bin\Debug\Stub.exe
+C:\Users\carlo\Downloads\Simple Rat\Stub\Client\bin\Debug\Stub.pdb
+C:\Users\carlo\Downloads\Simple Rat\Stub\Client\obj\Debug\Stub.Form1.resources
+C:\Users\carlo\Downloads\Simple Rat\Stub\Client\obj\Debug\Stub.Resources.resources
+C:\Users\carlo\Downloads\Simple Rat\Stub\Client\obj\Debug\Client.vbproj.GenerateResource.Cache
+C:\Users\carlo\Desktop\Simple Rat\Stub\Client\bin\Debug\Stub.exe.config
+C:\Users\carlo\Desktop\Simple Rat\Stub\Client\obj\Debug\Stub.exe
+C:\Users\carlo\Desktop\Simple Rat\Stub\Client\obj\Debug\Stub.pdb
+C:\Users\carlo\Desktop\Simple Rat\Stub\Client\bin\Debug\Stub.exe
+C:\Users\carlo\Desktop\Simple Rat\Stub\Client\bin\Debug\Stub.pdb
+C:\Users\carlo\Desktop\Simple Rat\Stub\Client\obj\Debug\Stub.Form1.resources
+C:\Users\carlo\Desktop\Simple Rat\Stub\Client\obj\Debug\Stub.Resources.resources
+C:\Users\carlo\Desktop\Simple Rat\Stub\Client\obj\Debug\Client.vbproj.GenerateResource.Cache
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\bin\Debug\Stub.exe.config
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\bin\Debug\Stub.exe
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\bin\Debug\Stub.pdb
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\obj\Debug\Stub.Form1.resources
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\obj\Debug\Stub.Resources.resources
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\obj\Debug\Stub.exe
+C:\Users\judieballadares\Desktop\New Folder (s)\Final Defense\Voice Command Controller\Remote Client\Stub\Client\obj\Debug\Stub.pdb
+C:\Users\joshua\Desktop\VCC\Remote Client\Stub\Client\bin\Debug\Stub.exe.config
+C:\Users\joshua\Desktop\VCC\Remote Client\Stub\Client\bin\Debug\Stub.exe
+C:\Users\joshua\Desktop\VCC\Remote Client\Stub\Client\bin\Debug\Stub.pdb
+C:\Users\joshua\Desktop\VCC\Remote Client\Stub\Client\obj\Debug\Stub.Form1.resources
+C:\Users\joshua\Desktop\VCC\Remote Client\Stub\Client\obj\Debug\Stub.Resources.resources
+C:\Users\joshua\Desktop\VCC\Remote Client\Stub\Client\obj\Debug\Client.vbproj.GenerateResource.Cache
+C:\Users\joshua\Desktop\VCC\Remote Client\Stub\Client\obj\Debug\Stub.exe
+C:\Users\joshua\Desktop\VCC\Remote Client\Stub\Client\obj\Debug\Stub.pdb

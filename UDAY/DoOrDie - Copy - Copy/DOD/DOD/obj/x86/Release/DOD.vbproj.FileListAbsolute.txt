@@ -1,0 +1,119 @@
+C:\DOD\DOD\bin\Release\DOD.exe.config
+C:\DOD\DOD\bin\Release\DOD.exe
+C:\DOD\DOD\bin\Release\DOD.pdb
+C:\DOD\DOD\bin\Release\DOD.xml
+C:\DOD\DOD\obj\x86\Release\ResolveAssemblyReference.cache
+C:\DOD\DOD\obj\x86\Release\DOD.frmAccount.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmApplication.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmAttendance.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmConfigure.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmCreateUser.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmKeyword.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmLock.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmManage.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmMenu.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmMyClass.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmNetwork.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmSetServer.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmSharedDesktop.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmSpeechRecognition.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmStudentRegistration.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmTimer.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmTutorial.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmVoice.resources
+C:\DOD\DOD\obj\x86\Release\DOD.frmWord.resources
+C:\DOD\DOD\obj\x86\Release\DOD.Resources.resources
+C:\DOD\DOD\obj\x86\Release\GenerateResource.read.1.tlog
+C:\DOD\DOD\obj\x86\Release\GenerateResource.write.1.tlog
+C:\DOD\DOD\obj\x86\Release\DOD.exe
+C:\DOD\DOD\obj\x86\Release\DOD.xml
+C:\DOD\DOD\obj\x86\Release\DOD.pdb
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\bin\Release\DOD.exe.config
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\bin\Release\DOD.exe
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\bin\Release\DOD.pdb
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\bin\Release\DOD.xml
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.vbproj.ResolveComReference.cache
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmAccount.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmActivity.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmAlternative.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmApplication.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmAttendance.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmChangeSection.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmConfigure.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmControl.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmCreateUser.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmDesktopViewer.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmExport.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmFileManager.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmKeylogger.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmKeyword.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmLock.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmMain.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmManage.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmMenu.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmMonitoring.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmMyClass.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmNetwork.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmSetServer.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmSharedDesktop.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmSpeechRecognition.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmStudentRegistration.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmTaskManager.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmText2Speech.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmTimer.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmTutorial.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmVoice.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmWarning.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.frmWord.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.Resources.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.exe
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.xml
+C:\Users\judieballadares\Desktop\DoOrDie - Copy\DOD\DOD\obj\x86\Release\DOD.pdb
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\bin\Release\DOD.exe.config
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\bin\Release\DOD.exe
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\bin\Release\DOD.pdb
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\bin\Release\DOD.xml
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.vbproj.ResolveComReference.cache
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmAccount.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmActivity.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmAlternative.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmApplication.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmAttendance.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmChangeSection.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmConfigure.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmControl.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmCreateUser.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmDesktopViewer.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmExport.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmFileManager.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmKeylogger.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmKeyword.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmLock.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmMain.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmManage.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmMenu.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmMonitoring.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmMyClass.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmNetwork.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmSetServer.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmSharedDesktop.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmSpeechRecognition.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmStudentRegistration.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmSystem.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmTaskManager.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmText2Speech.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmTimer.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmTutorial.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmVoice.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmWarning.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.frmWord.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.Resources.resources
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.exe
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.xml
+C:\Users\judieballadares\Desktop\DoOrDie - Copy - Copy\DOD\DOD\obj\x86\Release\DOD.pdb
